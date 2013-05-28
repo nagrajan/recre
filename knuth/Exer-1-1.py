@@ -1,6 +1,8 @@
 # solutions to problems in
 # Art of Computer Programming - Knuth
 
+__author__ = 'nagarajan'
+
 def solve1(abcd):
     t = abcd[0]
     for idx1 in range(len(abcd)-1):
@@ -37,9 +39,8 @@ def solve6(n=5, nExp=1000):
 
 
 
-
 if __name__ == "__main__":
-    print "Solution 1 in action returns : %s"%(solve1([1,2,3,4]))
+    print "Solution 1 returns : %s"%(solve1([1,2,3,4]))
     print "Solution 4 returns : %s"%(solve4(2166, 6099))
     print "Solution 6 returns : %s"%(solve6(5, 10000))
 
